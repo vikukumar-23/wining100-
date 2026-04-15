@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Winning100% - Lottery 66 Results & Predictions</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Top Ticker Bar -->
+<div class="ticker-bar">
+<div class="ticker-content">
+<span>🏆 Welcome to Winning100% - Your #1 Lottery 66 Result Platform 🏆 Updated Results Every Draw Day 🏆 Next Draw: 01 July 2025 🏆 Check Latest Numbers Now! 🏆</span>
+</div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar">
+<div class="nav-container">
+<div class="logo">
+<h1>Winning<span class="highlight">100%</span></h1>
+<p class="tagline">Lottery 66 Results</p>
+</div>
+<div class="hamburger" id="hamburger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+<ul class="nav-links" id="navLinks">
+<li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+<li><a href="#results"><i class="fas fa-trophy"></i> Results</a></li>
+<li><a href="#previous"><i class="fas fa-history"></i> Previous</a></li>
+<li><a href="#analysis"><i class="fas fa-chart-bar"></i> Analysis</a></li>
+<li><a href="#predictions"><i class="fas fa-magic"></i> Predictions</a></li>
+<li><a href="#tips"><i class="fas fa-lightbulb"></i> Tips</a></li>
+<li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<div class="hero-badge">🔴 LIVE RESULTS</div>
+<h1 class="hero-title">Winning<span>100%</span></h1>
+<h2 class="hero-subtitle">Lottery 66 - Official Results Platform</h2>
+<p class="hero-desc">Check latest winning numbers, analysis & smart predictions</p>
+<div class="hero-buttons">
+<a href="#results" class="btn btn-primary"><i class="fas fa-trophy"></i> View Results</a>
+<a href="#analysis" class="btn btn-secondary"><i class="fas fa-chart-line"></i> Analysis</a>
+</div>
+<div class="hero-stats">
+<div class="hero-stat">
+<span class="hero-stat-number" id="drawCount">1,247</span>
+<span class="hero-stat-label">Total Draws</span>
+</div>
+<div class="hero-stat">
+<span class="hero-stat-number" id="winnerCount">89,432</span>
+<span class="hero-stat-label">Winners</span>
+</div>
+<div class="hero-stat">
+<span class="hero-stat-number">2.5B ฿</span>
+<span class="hero-stat-label">Prize Pool</span>
+</div>
+</div>
+</div>
+<div class="floating-numbers">
+<span class="float-num">7</span>
+<span class="float-num">3</span>
+<span class="float-num">9</span>
+<span class="float-num">1</span>
+<span class="float-num">5</span>
+<span class="float-num">8</span>
+<span class="float-num">2</span>
+<span class="float-num">6</span>
+</div>
+</section>
+
+<!-- Countdown Timer -->
+<section class="countdown-section">
+<div class="container">
+<h2 class="section-title">⏳ Next Winning100% Draw</h2>
+<p class="countdown-date">📅 01 July 2025 | 3:00 PM (ICT)</p>
+<div class="countdown-timer" id="countdown">
+<div class="countdown-box">
+<span class="countdown-number" id="days">00</span>
+<span class="countdown-label">Days</span>
+</div>
+<div class="countdown-separator">:</div>
+<div class="countdown-box">
+<span class="countdown-number" id="hours">00</span>
+<span class="countdown-label">Hours</span>
+</div>
+<div class="countdown-separator">:</div>
+<div class="countdown-box">
+<span class="countdown-number" id="minutes">00</span>
+<span class="countdown-label">Minutes</span>
+</div>
+<div class="countdown-separator">:</div>
+<div class="countdown-box">
+<span class="countdown-number" id="seconds">00</span>
+<span class="countdown-label">Seconds</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Latest Result Section -->
+<section class="results-section" id="results">
+<div class="container">
+<h2 class="section-title"><i class="fas fa-trophy"></i> Latest Winning100% Result</h2>
+<div class="result-badge">🔴 Draw Date: 16 June 2025</div>
+
+<!-- First Prize Highlight -->
+<div class="first-prize-card">
+<div class="prize-crown">👑</div>
+<h3>1st Prize - Grand Winner</h3>
+<div class="first-prize-number" id="firstPrize">
+<span class="digit">5</span>
+<span class="digit">2</span>
+<span class="digit">8</span>
+<span class="digit">4</span>
+<span class="digit">9</span>
+<span class="digit">7</span>
+</div>
+<div class="prize-amount">💰 6,000,000 ฿</div>
+</div>
+
+<!-- Other Prizes Table -->
+<div class="prizes-grid">
+<div class="prize-card">
+<div class="prize-icon">🥈</div>
+<h4>2nd Prize</h4>
+<div class="prize-numbers">173920</div>
+<div class="prize-value">200,000 ฿</div>
+</div>
+<div class="prize-card">
+<div class="prize-icon">🥉</div>
+<h4>3rd Prize</h4>
+<div class="prize-numbers">394821</div>
+<div class="prize-value">80,000 ฿</div>
+</div>
+<div class="prize-card">
+<div class="prize-icon">⭐</div>
+<h4>4th Prize</h4>
+<div class="prize-numbers">648201</div>
+<div class="prize-value">40,000 ฿</div>
+</div>
+<div class="prize-card">
+<div class="prize-icon">🎯</div>
+<h4>5th Prize</h4>
+<div class="prize-numbers">920174</div>
+<div class="prize-value">20,000 ฿</div>
+</div>
+</div>
+
+<!-- Digit Prizes -->
+<div class="digit-prizes">
+<div class="digit-card">
+<h4>🔢 Last 2 Digits</h4>
+<div class="digit-number">97</div>
+<p>Prize: 2,000 ฿</p>
+</div>
+<div class="digit-card">
+<h4>🔢 Last 3 Digits</h4>
+<div class="digit-number">497 | 821</div>
+<p>Prize: 4,000 ฿</p>
+</div>
+<div class="digit-card">
+<h4>🔢 First 3 Digits</h4>
+<div class="digit-number">528 | 394</div>
+<p>Prize: 4,000 ฿</p>
+</div>
+</div>
+
+<!-- Number Checker -->
+<div class="checker-card">
+<h3><i class="fas fa-search"></i> Check Your Number</h3>
+<p>Enter your lottery number to check if you won!</p>
+<div class="checker-input">
+<input type="text" id="checkNumber" placeholder="Enter 6-digit number" maxlength="6">
+<button onclick="checkWinner()" class="btn btn-primary"><i class="fas fa-search"></i> Check</button>
+</div>
+<div id="checkResult" class="check-result"></div>
+</div>
+</div>
+</section>
+
+<!-- Previous Results Section -->
+<section class="previous-section" id="previous">
+<div class="container">
+<h2 class="section-title"><i class="fas fa-history"></i> Previous Winning100% Results</h2>
+
+<!-- Filter -->
+<div class="filter-bar">
+<select id="yearFilter" onchange="filterResults()">
+<option value="2025">📅 2025</option>
+<option value="2024">📅 2024</option>
+<option value="2023">📅 2023</option>
+</select>
+<input type="text" id="searchResult" placeholder="🔍 Search by number..." onkeyup="searchResults()">
+</div>
+
+<div class="results-table-wrapper">
+<table class="results-table" id="resultsTable">
+<thead>
+<tr>
+<th>📅 Draw Date</th>
+<th>🥇 1st Prize</th>
+<th>🔢 Last 2</th>
+<th>🔢 Last 3</th>
+<th>🔢 First 3</th>
+<th>📊 Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16 Jun 2025</td>
+<td class="gold-text">528497</td>
+<td>97</td>
+<td>497 / 821</td>
+<td>528 / 394</td>
+<td><button class="btn-small" onclick="showDetails('16 Jun 2025')">View</button></td>
+</tr>
+<tr>
+<td>01 Jun 2025</td>
+<td class="gold-text">483921</td>
+<td>21</td>
+<td>921 / 483</td>
+<td>483 / 291</td>
+<td><button class="btn-small" onclick="showDetails('01 Jun 2025')">View</button></td>
+</tr>
+<tr>
+<td>16 May 2025</td>
+<td class="gold-text">729105</td>
+<td>05</td>
+<td>105 / 729</td>
+<td>729 / 310</td>
+<td><button class="btn-small" onclick="showDetails('16 May 2025')">View</button></td>
+</tr>
+<tr>
+<td>01 May 2025</td>
+<td class="gold-text">314856</td>
+<td>56</td>
+<td>856 / 314</td>
+<td>314 / 785</td>
+<td><button class="btn-small" onclick="showDetails('01 May 2025')">View</button></td>
+</tr>
+<tr>
+<td>16 Apr 2025</td>
+<td class="gold-text">951247</td>
+<td>47</td>
+<td>247 / 951</td>
+<td>951 / 624</td>
+<td><button class="btn-small" onclick="showDetails('16 Apr 2025')">View</button></td>
+</tr>
+<tr>
+<td>01 Apr 2025</td>
+<td class="gold-text">602389</td>
+<td>89</td>
+<td>389 / 602</td>
+<td>602 / 138</td>
+<td><button class="btn-small" onclick="showDetails('01 Apr 2025')">View</button></td>
+</tr>
+<tr>
+<td>16 Mar 2025</td>
+<td class="gold-text">847362</td>
+<td>62</td>
+<td>362 / 847</td>
+<td>847 / 536</td>
+<td><button class="btn-small" onclick="showDetails('16 Mar 2025')">View</button></td>
+</tr>
+<tr>
+<td>01 Mar 2025</td>
+<td class="gold-text">195048</td>
+<td>48</td>
+<td>048 / 195</td>
+<td>195 / 704</td>
+<td><button class="btn-small" onclick="showDetails('01 Mar 2025')">View</button></td>
+</tr>
+<tr>
+<td>16 Feb 2025</td>
+<td class="gold-text">563719</td>
+<td>19</td>
+<td>719 / 563</td>
+<td>563 / 471</td>
+<td><button class="btn-small" onclick="showDetails('16 Feb 2025')">View</button></td>
+</tr>
+<tr>
+<td>01 Feb 2025</td>
+<td class="gold-text">280634</td>
+<td>34</td>
+<td>634 / 280</td>
+<td>280 / 963</td>
+<td><button class="btn-small" onclick="showDetails('01 Feb 2025')">View</button></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+
+<!-- Analysis Section -->
+<section class="analysis-section" id="analysis">
+<div class="container">
+<h2 class="section-title"><i class="fas fa-chart-bar"></i> Winning100% Number Analysis</h2>
+
+<!-- Hot Numbers -->
+<div class="analysis-card">
+<h3>🔥 Hot Numbers <span class="sub-text">(Most Frequent in Last 50 Draws)</span></h3>
+<div class="number-grid">
+<div class="num-box hot">07 <span class="frequency">23x</span></div>
+<div class="num-box hot">21 <span class="frequency">21x</span></div>
+<div class="num-box hot">34 <span class="frequency">20x</span></div>
+<div class="num-box hot">49 <span class="frequency">19x</span></div>
+<div class="num-box hot">56 <span class="frequency">18x</span></div>
+<div class="num-box hot">63 <span class="frequency">18x</span></div>
+<div class="num-box hot">78 <span class="frequency">17x</span></div>
+<div class="num-box hot">82 <span class="frequency">17x</span></div>
+<div class="num-box hot">91 <span class="frequency">16x</span></div>
+<div class="num-box hot">15 <span class="frequency">16x</span></div>
+</div>
+</div>
+
+<!-- Cold Numbers -->
+<div class="analysis-card">
+<h3>❄️ Cold Numbers <span class="sub-text">(Least Frequent in Last 50 Draws)</span></h3>
+<div class="number-grid">
+<div class="num-box cold">03 <span class="frequency">2x</span></div>
+<div class="num-box cold">18 <span class="frequency">3x</span></div>
+<div class="num-box cold">26 <span class="frequency">3x</span></div>
+<div class="num-box cold">44 <span class="frequency">4x</span></div>
+<div class="num-box cold">59 <span class="frequency">4x</span></div>
+<div class="num-box cold">67 <span class="frequency">5x</span></div>
+<div class="num-box cold">72 <span class="frequency">5x</span></div>
+<div class="num-box cold">85 <span class="frequency">5x</span></div>
+<div class="num-box cold">93 <span class="frequency">6x</span></div>
+<div class="num-box cold">38 <span class="frequency">6x</span></div>
+</div>
+</div>
+
+<!-- Frequency Bars -->
+<div class="analysis-card">
+<h3>📊 Digit Frequency Chart</h3>
+<div class="frequency-chart">
+<div class="freq-bar-row">
+<span class="freq-label">0</span>
+<div class="freq-bar" style="width: 45%;"><span>45%</span></div>
+</div>
+<div class="freq-bar-row">
+<span class="freq-label">1</span>
+<div class="freq-bar" style="width: 62%;"><span>62%</span></div>
+</div>
+<div class="freq-bar-row">
+<span class="freq-label">2</span>
+<div class="freq-bar" style="width: 55%;"><span>55%</span></div>
+</div>
+<div class="freq-bar-row">
+<span class="freq-label">3</span>
+<div class="freq-bar" style="width: 38%;"><span>38%</span></div>
+</div>
+<div class="freq-bar-row">
+<span class="freq-label">4</span>
+<div class="freq-bar" style="width: 72%;"><span>72%</span></div>
+</div>
+<div class="freq-bar-row">
+<span class="freq-label">5</span>
+<div class="freq-bar" style="width: 58%;"><span>58%</span></div>
+</div>
+<div class="freq-bar-row">
+<span class="freq-label">6</span>
+<div class="freq-bar" style="width: 41%;"><span>41%</span></div>
+</div>
+<div class="freq-bar-row">
+<span class="freq-label">7</span>
+<div class="freq-bar" style="width: 80%;"><span>80%</span></div>
+</div>
+<div class="freq-bar-row">
+<span class="freq-label">8</span>
+<div class="freq-bar" style="width: 66%;"><span>66%</span></div>
+</div>
+<div class="freq-bar-row">
+<span class="freq-label">9</span>
+<div class="freq-bar" style="width: 70%;"><span>70%</span></div>
+</div>
+</div>
+</div>
+
+<!-- Pair Analysis -->
+<div class="analysis-card">
+<h3>🔗 Top Winning Pairs</h3>
+<div class="pairs-grid">
+<div class="pair-box"><span class="pair-num">4-7</span><span class="pair-freq">15 times</span></div>
+<div class="pair-box"><span class="pair-num">2-9</span><span class="pair-freq">14 times</span></div>
+<div class="pair-box"><span class="pair-num">1-5</span><span class="pair-freq">13 times</span></div>
+<div class="pair-box"><span class="pair-num">3-8</span><span class="pair-freq">12 times</span></div>
+<div class="pair-box"><span class="pair-num">6-0</span><span class="pair-freq">11 times</span></div>
+<div class="pair-box"><span class="pair-num">7-2</span><span class="pair-freq">11 times</span></div>
+<div class="pair-box"><span class="pair-num">9-4</span><span class="pair-freq">10 times</span></div>
+<div class="pair-box"><span class="pair-num">5-1</span><span class="pair-freq">10 times</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Predictions Section -->
+<section class="predictions-section" id="predictions">
+<div class="container">
+<h2 class="section-title"><i class="fas fa-magic"></i> Winning100% Smart Predictions</h2>
+
+<div class="prediction-disclaimer">
+⚠️ These predictions are based on statistical analysis of past results.
+Lottery is random - no prediction can guarantee winning.
+</div>
+
+<div class="predictions-grid">
+<div class="prediction-card">
+<div class="pred-header">
+<h3>🎯 Top Pick - 6 Digits</h3>
+<span class="confidence high">Confidence: 72%</span>
+</div>
+<div class="pred-numbers">
+<span>4</span><span>7</span><span>2</span><span>9</span><span>1</span><span>5</span>
+</div>
+<p class="pred-reason">Based on hot number pattern + pair frequency</p>
+</div>
+<div class="prediction-card">
+<div class="pred-header">
+<h3>🔥 Runner Up - 6 Digits</h3>
+<span class="confidence medium">Confidence: 58%</span>
+</div>
+<div class="pred-numbers">
+<span>8</span><span>3</span><span>6</span><span>0</span><span>4</span><span>7</span>
+</div>
+<p class="pred-reason">Based on cold number reversal pattern</p>
+</div>
+<div class="prediction-card">
+<div class="pred-header">
+<h3>🔢 Last 2 Digits</h3>
+<span class="confidence high">Confidence: 68%</span>
+</div>
+<div class="pred-numbers small">
+<span>1</span><span>5</span>
+</div>
+<p class="pred-reason">Most overdue 2-digit combination</p>
+</div>
+<div class="prediction-card">
+<div class="pred-header">
+<h3>🔢 Last 3 Digits</h3>
+<span class="confidence medium">Confidence: 55%</span>
+</div>
+<div class="pred-numbers small">
+<span>9</span><span>1</span><span>5</span>
+</div>
+<p class="pred-reason">Based on 3-digit cycle pattern</p>
+</div>
+</div>
+
+<!-- Random Generator -->
+<div class="generator-card">
+<h3><i class="fas fa-random"></i> Lucky Number Generator</h3>
+<p>Click to generate your lucky Winning100% numbers!</p>
+<div class="generated-numbers" id="generatedNumbers">
+<span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+</div>
+<button onclick="generateNumbers()" class="btn btn-primary"><i class="fas fa-dice"></i> Generate Numbers</button>
+</div>
+</div>
+</section>
+
+<!-- Tips Section -->
+<section class="tips-section" id="tips">
+<div class="container">
+<h2 class="section-title"><i class="fas fa-lightbulb"></i> Winning100% Lottery Tips</h2>
+
+<div class="tips-grid">
+<div class="tip-card">
+<div class="tip-icon">📊</div>
+<h3>Study Patterns</h3>
+<p>Analyze past 50+ draws to identify recurring number patterns and frequency trends.</p>
+</div>
+<div class="tip-card">
+<div class="tip-icon">🔥</div>
+<h3>Mix Hot & Cold</h3>
+<p>Combine frequently appearing numbers with overdue numbers for balanced selection.</p>
+</div>
+<div class="tip-card">
+<div class="tip-icon">🎯</div>
+<h3>Focus on Pairs</h3>
+<p>Certain digit pairs appear together more often. Use pair analysis for better picks.</p>
+</div>
+<div class="tip-card">
+<div class="tip-icon">💰</div>
+<h3>Set a Budget</h3>
+<p>Always play responsibly. Set a fixed budget and never spend more than you can afford.</p>
+</div>
+<div class="tip-card">
+<div class="tip-icon">🧠</div>
+<h3>Avoid Common Picks</h3>
+<p>Birthdays and popular numbers are chosen by many. Unique numbers mean less sharing.</p>
+</div>
+<div class="tip-card">
+<div class="tip-icon">📱</div>
+<h3>Stay Updated</h3>
+<p>Follow Winning100% for latest results, analysis and smart predictions every draw.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+<div class="container">
+<h2 class="section-title"><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+
+<div class="faq-list">
+<div class="faq-item">
+<div class="faq-question" onclick="toggleFaq(this)">
+<span>What is Winning100%?</span>
+<i class="fas fa-chevron-down"></i>
+</div>
+<div class="faq-answer">
+<p>Winning100% is a lottery 66 results display and analysis platform. We provide latest results, historical data, statistical analysis, and smart predictions based on past patterns.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question" onclick="toggleFaq(this)">
+<span>When are lottery 66 draws held?</span>
+<i class="fas fa-chevron-down"></i>
+</div>
+<div class="faq-answer">
+<p>Lottery 66 draws are held twice a month - on the 1st and 16th of every month at 3:00 PM (ICT).</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question" onclick="toggleFaq(this)">
+<span>Can Winning100% guarantee winning numbers?</span>
+<i class="fas fa-chevron-down"></i>
+</div>
+<div class="faq-answer">
+<p>No. Lottery is completely random. Our predictions are based on statistical analysis only. No one can guarantee winning numbers. Please play responsibly.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question" onclick="toggleFaq(this)">
+<span>Does Winning100% sell lottery tickets?</span>
+<i class="fas fa-chevron-down"></i>
+</div>
+<div class="faq-answer">
+<p>No. Winning100% is purely an informational platform. We do not sell lottery tickets. Please purchase tickets only from authorized dealers.</p>
+</div>
+</div>
+<div class="faq-item">
+<div class="faq-question" onclick="toggleFaq(this)">
+<span>How accurate are the predictions?</span>
+<i class="fas fa-chevron-down"></i>
+</div>
+<div class="faq-answer">
+<p>Our predictions are based on statistical patterns from past draws. While they provide informed suggestions, lottery outcomes are random and predictions should be used for entertainment purposes only.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+<div class="container">
+<h2 class="section-title"><i class="fas fa-envelope"></i> Contact Winning100%</h2>
+
+<div class="contact-grid">
+<div class="contact-info">
+<div class="contact-item">
+<i class="fas fa-envelope"></i>
+<div>
+<h4>Email</h4>
+<p>info@winning100.com</p>
+</div>
+</div>
+<div class="contact-item">
+<i class="fab fa-telegram"></i>
+<div>
+<h4>Telegram</h4>
+<p>@winning100official</p>
+</div>
+</div>
+<div class="contact-item">
+<i class="fab fa-facebook"></i>
+<div>
+<h4>Facebook</h4>
+<p>fb.com/winning100</p>
+</div>
+</div>
+<div class="contact-item">
+<i class="fab fa-youtube"></i>
+<div>
+<h4>YouTube</h4>
+<p>Winning100% Official</p>
+</div>
+</div>
+</div>
+<div class="contact-form">
+<form id="contactForm" onsubmit="submitContact(event)">
+<div class="form-group">
+<input type="text" placeholder="Your Name" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="Your Email" required>
+</div>
+<div class="form-group">
+<select>
+<option>Select Subject</option>
+<option>Result Inquiry</option>
+<option>Analysis Request</option>
+<option>Report Issue</option>
+<option>Partnership</option>
+<option>Other</option>
+</select>
+</div>
+<div class="form-group">
+<textarea placeholder="Your Message" rows="5" required></textarea>
+</div>
+<button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-col">
+<h3>Winning<span class="highlight">100%</span></h3>
+<p>Your trusted Lottery 66 results and analysis platform. Updated every draw day with latest results and smart predictions.</p>
+<div class="social-links">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-telegram"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+<div class="footer-col">
+<h4>Quick Links</h4>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#results">Latest Results</a></li>
+<li><a href="#previous">Previous Results</a></li>
+<li><a href="#analysis">Number Analysis</a></li>
+<li><a href="#predictions">Predictions</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Resources</h4>
+<ul>
+<li><a href="#tips">Lottery Tips</a></li>
+<li><a href="#">How to Play</a></li>
+<li><a href="#">Prize Structure</a></li>
+<li><a href="#">Responsible Gaming</a></li>
+<li><a href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Newsletter</h4>
+<p>Get results & predictions delivered to your inbox!</p>
+<div class="newsletter-form">
+<input type="email" placeholder="Your email...">
+<button class="btn btn-primary">Subscribe</button>
+</div>
+</div>
+</div>
+
+<div class="footer-disclaimer">
+⚠️ <strong>Disclaimer:</strong> Winning100% is a result display and analysis platform only.
+All lottery numbers are drawn randomly by official authorities.
+No one can guarantee or predict winning numbers.
+Gambling involves risk. Please play responsibly.
+This website does not sell lottery tickets.
+Must be 18+ to play. All results shown are for informational purposes only.
+</div>
+
+<div class="footer-bottom">
+<p>© 2025 Winning100% - All Rights Reserved</p>
+<p>Lottery 66 Results & Analysis Platform</p>
+</div>
+</div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+<i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Modal -->
+<div class="modal" id="detailModal">
+<div class="modal-content">
+<span class="modal-close" onclick="closeModal()">&times;</span>
+<div id="modalBody"></div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
