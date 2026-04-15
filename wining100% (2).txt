@@ -1,0 +1,321 @@
+/* ============================================
+Winning100% - Complete Stylesheet
+Lottery 66 Results Platform
+============================================ */
+
+/* ===== RESET & BASE ===== */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: #0a0a1a;
+color: #ffffff;
+line-height: 1.6;
+overflow-x: hidden;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+ul {
+list-style: none;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.highlight {
+color: #ff0000;
+}
+
+.gold-text {
+color: #FFD700;
+font-weight: bold;
+letter-spacing: 3px;
+}
+
+.section-title {
+text-align: center;
+font-size: 32px;
+color: #FFD700;
+margin-bottom: 30px;
+padding-bottom: 15px;
+border-bottom: 3px solid #FFD700;
+display: inline-block;
+width: 100%;
+}
+
+.section-title i {
+margin-right: 10px;
+}
+
+.sub-text {
+font-size: 14px;
+color: #aaa;
+font-weight: normal;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+display: inline-block;
+padding: 12px 28px;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.3s ease;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+.btn i {
+margin-right: 8px;
+}
+
+.btn-primary {
+background: linear-gradient(135deg, #FFD700, #FFA500);
+color: #1a1a2e;
+}
+
+.btn-primary:hover {
+background: linear-gradient(135deg, #FFA500, #ff6600);
+transform: translateY(-2px);
+box-shadow: 0 5px 20px rgba(255, 215, 0, 0.4);
+}
+
+.btn-secondary {
+background: transparent;
+color: #FFD700;
+border: 2px solid #FFD700;
+}
+
+.btn-secondary:hover {
+background: #FFD700;
+color: #1a1a2e;
+transform: translateY(-2px);
+}
+
+.btn-small {
+padding: 6px 16px;
+background: linear-gradient(135deg, #FFD700, #FFA500);
+color: #1a1a2e;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 12px;
+font-weight: bold;
+transition: all 0.3s;
+}
+
+.btn-small:hover {
+background: linear-gradient(135deg, #FFA500, #ff6600);
+transform: scale(1.05);
+}
+
+/* ===== TICKER BAR ===== */
+.ticker-bar {
+background: linear-gradient(90deg, #ff0000, #cc0000);
+padding: 8px 0;
+overflow: hidden;
+white-space: nowrap;
+}
+
+.ticker-content {
+display: inline-block;
+animation: tickerScroll 20s linear infinite;
+}
+
+.ticker-content span {
+font-size: 14px;
+font-weight: bold;
+color: #fff;
+letter-spacing: 1px;
+}
+
+@keyframes tickerScroll {
+0% { transform: translateX(100vw); }
+100% { transform: translateX(-100%); }
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+background: linear-gradient(180deg, #1a1a3e, #0f0f2e);
+padding: 15px 0;
+position: sticky;
+top: 0;
+z-index: 1000;
+border-bottom: 2px solid #FFD700;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.nav-container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo h1 {
+font-size: 28px;
+background: linear-gradient(90deg, #FFD700, #FFA500);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.logo h1 span {
+-webkit-text-fill-color: #ff0000;
+}
+
+.logo .tagline {
+font-size: 11px;
+color: #aaa;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.nav-links {
+display: flex;
+gap: 5px;
+}
+
+.nav-links li a {
+padding: 8px 15px;
+border-radius: 8px;
+font-size: 14px;
+transition: all 0.3s;
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+background: linear-gradient(135deg, #FFD700, #FFA500);
+color: #1a1a2e;
+}
+
+.nav-links li a i {
+font-size: 12px;
+}
+
+/* Hamburger */
+.hamburger {
+display: none;
+flex-direction: column;
+cursor: pointer;
+gap: 5px;
+}
+
+.hamburger span {
+width: 28px;
+height: 3px;
+background: #FFD700;
+border-radius: 3px;
+transition: 0.3s;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+position: relative;
+min-height: 80vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+overflow: hidden;
+}
+
+.hero-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: radial-gradient(circle at center, transparent 30%, rgba(0,0,0,0.7) 100%);
+}
+
+.hero-content {
+position: relative;
+z-index: 2;
+padding: 40px 20px;
+}
+
+.hero-badge {
+display: inline-block;
+background: #ff0000;
+color: #fff;
+padding: 5px 20px;
+border-radius: 20px;
+font-size: 14px;
+font-weight: bold;
+margin-bottom: 20px;
+animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+0%, 100% { opacity: 1; }
+50% { opacity: 0.6; }
+}
+
+.hero-title {
+font-size: 72px;
+background: linear-gradient(90deg, #FFD700, #FFA500, #FFD700);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+margin-bottom: 10px;
+animation: shimmer 3s ease-in-out infinite;
+background-size: 200% auto;
+}
+
+@keyframes shimmer {
+0% { background-position: 0% center; }
+50% { background-position: 100% center; }
+100% { background-position: 0% center; }
+}
+
+.hero-title span {
+-webkit-text-fill-color: #ff0000;
+}
+
+.hero-subtitle {
+font-size: 24px;
+color: #ddd;
+margin-bottom: 10px;
+}
+
+.hero-desc {
+font-size: 16px;
+color: #aaa;
+margin-bottom: 30px;
+}
+
+.hero-buttons {
+display: flex;
+gap: 15px;
+justify-content: center;
+margin-bottom: 40px;
+flex-wrap: wrap;
+}
+
+.hero-stats {
+display: flex;
+gap: 40px;
