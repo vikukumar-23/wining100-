@@ -1,0 +1,76 @@
+/* ============================================
+WINNING100% - LOTTERY 66 COMPLETE STYLESHEET
+============================================ */
+
+/* ===== RESET & BASE ===== */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: #0a0a1a;
+color: #ffffff;
+line-height: 1.6;
+overflow-x: hidden;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+ul {
+list-style: none;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.highlight {
+color: #ff0000;
+}
+
+.gold-text {
+color: #FFD700;
+font-weight: bold;
+letter-spacing: 3px;
+}
+
+/* ===== TICKER BAR ===== */
+.ticker-bar {
+background: linear-gradient(90deg, #ff0000, #cc0000);
+padding: 8px 0;
+overflow: hidden;
+white-space: nowrap;
+}
+
+.ticker-content {
+display: inline-block;
+animation: tickerScroll 20s linear infinite;
+}
+
+.ticker-content span {
+font-size: 14px;
+font-weight: 600;
+color: #ffffff;
+letter-spacing: 1px;
+}
+
+@keyframes tickerScroll {
+0% { transform: translateX(100vw); }
+100% { transform: translateX(-100%); }
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+background: linear-gradient(180deg, #0f0f2e, 
